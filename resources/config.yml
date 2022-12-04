@@ -1,0 +1,2 @@
+# Automatically insert plugin into blacklist after disabling
+write-blacklist: false

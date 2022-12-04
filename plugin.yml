@@ -1,0 +1,18 @@
+---
+name: PMMPGet
+version: 1.0.0
+main: Mcbeany\PMMPGet\PMMPGet
+api: 4.0.0
+author: Mcbeany
+
+commands:
+  pmmpget:
+    description: PMMPGet Command
+    permission: pmmpget.command
+    aliases: [pmget]
+
+permissions:
+  pmmpget.command:
+    description: Permission to use PMMPGet command
+    default: op
+...
